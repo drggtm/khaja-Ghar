@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaja-ghar-signup</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js" type="text/javascript"></script>
+    <div class="r-signup">
+        <h2 id="register">Registration</h2>
+        <form action="#" onSubmit = "return checkPassword(this)">
+            <div class="input-box">
+                <label>Your Fullname</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <label id="password">password:</label>
+                <input type="password" placeholder="Create password" name="password1" required>
+            </div>
+            <div class="input-box">
+                <label id="c-password"> confirm password:</label>
+                <input type="password" placeholder="Confirm password" name="password2" required>
+            </div>
+            <div class="policy">
+
+                <h3><input type="checkbox">I accept all terms & condition</h3>
+            </div>
+            <div class="input-boxbutton">
+                <button type="submit" value = "Submit">register</button>
+            </div>
+            <div class="text">
+                <h3>Already have an account? <a href="">Login now</a></h3>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

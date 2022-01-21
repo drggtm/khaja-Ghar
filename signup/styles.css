@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Pushster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4070f4;
+  }
+
+  .r-signup{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+
+  .input-boxbutton :hover{
+      color: turquoise;
+  }
+    
+  .input-box input{
+      margin-bottom: 12px;
+      margin-top: 10px;
+      padding: 8px;
+      width: 100%;
+  }
+
+  #register{
+    font-family: 'Island Moments', cursive;
+    font-family: 'Pushster', cursive;
+
+  }
+
+  
